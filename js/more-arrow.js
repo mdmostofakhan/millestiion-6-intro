@@ -21,7 +21,7 @@ const multipaly = (a, b) => a * b;
 const result = multipaly (3, 6);
 // console.log(result);
 
-const addAll = (a, b, c, d, e, f ) => a + b + c + e + f;
+const addAll = (a, b, c, d, e, f ) => a + b + d + c + e + f;
 
 // no parameter arrow function
 const getpie = () => 3.13;
@@ -38,7 +38,7 @@ console.log(results);
 
 // multi line arrow function
 // if you want to return something, use the retrurn
-const doMath = (x, y, z) => j{
+const doMath = (x, y, z) => {
     const firstSum = x + y ;
     const secondSum = y + z ;
     const multiPlayResult = secondSum * firstSum;
@@ -46,5 +46,5 @@ const doMath = (x, y, z) => j{
     return result;
 }
 
-const memmin = doMath(6, 3, 3)
-console.log(memmin);
+const total = doMath(6, 3, 3)
+console.log(total);

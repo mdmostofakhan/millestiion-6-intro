@@ -18,7 +18,7 @@ const a = 20;
 const b = 23;
 const nums = [23, 34, 43, 54, 34]
 const summary = 'sum of : '  + a +  ' and ' + b + ' is : ' + (a+b);
-console.log(summary);
+// console.log(summary);
 
 const newSummary =  `sum of: ${a} and ${nums.length} is: ${a+b}`;
 console.log(newSummary);
